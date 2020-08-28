@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-dark nav">
+    <a class="navbar-brand nv-link" [routerLink]="['/inicio']" routerLinkActive="router-link-active">
+        <!-- <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> --><i class="fas fa-chalkboard-teacher"></i> Pizarra
+    </a>
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link nv-link" [routerLink]="['/inicio']" routerLinkActive="router-link-active"><i class="fas fa-home"></i> Inicio </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nv-link" href="#"><i class="fas fa-users"></i> Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nv-link" href="#"><i class="fas fa-comments"></i> Contactar con soporte</a>
+            </li>
+        </ul>
+    </div>
+</nav>

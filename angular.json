@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "FPanel"
+    }
+  },
+  "defaultProject": "FPanel",
+  "cli": {
+    "analytics": false
+  }
 }

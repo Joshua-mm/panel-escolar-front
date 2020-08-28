@@ -3,12 +3,23 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+/// Rutas
+import { ROUTES } from './app.routes';
+import { RouterModule } from '@angular/router';
+
+/// Componentes
+import { InicioComponent } from './components/inicio/inicio.component';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InicioComponent,
+    NavbarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot( ROUTES, { useHash: true } )
   ],
   providers: [],
   bootstrap: [AppComponent]
